@@ -1,27 +1,12 @@
 # Lapastelería-Front
 
-## Project setup
+Frontend de una página de ejemplo realizada con Vue.Js.
+
+Para visualizar, clonar el respositorio y ejecutar los siguientes comandos:
+
 ```
 npm install
-```
-
-### Compiles and hot-reloads for development
-```
 npm run serve
 ```
 
-### Compiles and minifies for production
-```
-npm run build
-```
-
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
-#� �L�a�P�a�s�t�e�l�e�r�i�a�
-�
-�
+Algunos módulos no están finalizados, serán actualizados próximamente al igual que la conexión con el backend. 
