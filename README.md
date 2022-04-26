@@ -2,7 +2,7 @@
 
 Frontend de una página de ejemplo realizada con Vue.Js.
 
-Para visualizar, clonar el respositorio y ejecutar los siguientes comandos:
+Para ejecutar el proyecto se debe tener instalado Node.js. Descargar o clonar el respositorio y ejecutar los siguientes comandos:
 
 ```
 npm install
