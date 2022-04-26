@@ -25,7 +25,7 @@
             </div>
            </transition>
           </router-link>
-          <router-link to="/contacto"> Contacto </router-link>
+          <router-link to="/contacto1"> Contacto </router-link>
           <router-view  />
         </nav>
       </div>

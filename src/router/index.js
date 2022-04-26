@@ -27,7 +27,7 @@ const routes = [
     component: Postres
   },
   {
-    path: '/contacto',
+    path: '/contacto1',
     name: 'Contacto1',
     component: Contacto1
   }

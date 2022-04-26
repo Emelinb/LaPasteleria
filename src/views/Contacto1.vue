@@ -64,7 +64,7 @@
           </button>
         </div>
       </div>
-      <div class="p-2" id="gracias" v-if="showGracias"> <p> Formulario enviado con éxito. </p> <p>Gracias por comunicarte con nosotros!</p>  <p style="font-size: .7rem"> Serás redireccionado automáticamente</p> </div>
+      <div class="p-2" id="gracias" v-if="showGracias"> <p> Formulario enviado con éxito. </p> <p>Gracias por comunicarte con nosotros!</p>  </div>
       </div>
  <Footer />
   </div>
@@ -76,7 +76,6 @@ import Footer from '../components/Footer'
 export default {
   data () {
     return {
-      nameCamp: false,
       reqName: false,
       invName: false,
       placeName: 'Ingrese su nombre',
