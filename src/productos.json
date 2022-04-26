@@ -1,0 +1,36 @@
+[
+    {   
+        "id": 1,
+        "nombre": "Lemon Pie",
+        "precio": {"Ent": 1200, "Porc": 180},
+        "img": "lemon.svg"
+    },
+    {   "id": 2,
+        "nombre": "Cheesecake de Frutos Rojos",
+        "precio": {"Ent": 1500, "Porc": 200},
+        "img": "cheese.svg"
+    },
+    {
+        "id": 3,
+        "nombre": "Tarta de coco",
+        "precio": {"Ent": 1500, "Porc": 200},
+        "img": "coco.svg"
+    },
+    {   "id": 4,
+        "nombre": "Tiramisú",
+        "precio": {"Ent": 1300, "Porc": 190},
+        "img": "tiramisu.svg"
+    },
+    {
+        "id": 5,
+        "nombre": "Tarta Toffee",
+        "precio": {"Ent": 1500, "Porc": 200},
+        "img": "tofi.svg"
+    },
+    {   
+        "id": 6,
+        "nombre": "Tarta Frutal",
+        "precio": {"Ent": 1200, "Porc": 180},
+        "img": "tartafrutal.svg"
+    }
+]

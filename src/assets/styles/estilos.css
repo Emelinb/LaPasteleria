@@ -1,0 +1,433 @@
+@import url('https://fonts.googleapis.com/css2?family=Cookie&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@400;500&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Quicksand', sans-serif;
+}
+html{
+
+    scroll-behavior: smooth;
+
+}
+body{
+    font-size: 16px;
+    color: rgb(153, 63, 101)
+}
+
+/* Banner */
+
+#banner{
+    
+    height: 100vh;
+
+    background-image: url("../img/foto2.svg");
+    background-size: cover;
+
+
+}
+
+#titulos{
+
+ 
+    width: 50vw;
+
+    margin-left: 1rem;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    position: absolute;
+    top: 49%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+  }
+
+   
+
+
+h1{
+   
+
+    width: 100%;
+    margin-left: 1rem;
+    
+    font-family: 'Cookie', cursive;
+    font-size: 12rem;
+    font-weight: 400;
+    display: flex;
+    justify-content: start;
+    
+}
+
+#banner h2{
+    width: 100%;
+    margin: auto;
+    text-align: center;
+    font-size: 1.7rem;
+    font-weight: 500;
+    font-style: italic;
+}
+
+#boton{
+    height: 5.5rem;
+    width: 3.2rem;
+    
+    border-radius: 17%;
+    
+    
+    position: absolute;
+    bottom: 1rem;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+
+    text-align: center;
+ 
+
+}
+#cupcake img{
+    width: 3rem;
+}
+#cupcake{
+    
+    margin:auto;
+    margin-top: 2px;
+
+    /*background-image: linear-gradient(180deg, #ffc0a9 0, #ffb5a6 16.67%, #ffa9a2 33.33%, #f29d9d 50%, #de9297 66.67%, #cc8891 83.33%, #bb7f8b 100%);*/
+    animation: trasladarAbajo 1s linear 1s infinite alternate none running;
+    
+    
+}
+
+@keyframes trasladarAbajo {
+    from {margin-top: .2rem;}
+    to {margin-top: 2.2rem ;}
+    }
+
+
+
+#boton:hover{
+    color: seashell;
+   
+    box-shadow: 0 4px 6px   rgba(255, 255, 255, 0.6);
+    
+}
+
+
+
+
+/* Inicio */
+
+#inicio{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+
+/*Menu inicio */
+
+.ulMenu {
+    margin: 0;
+    list-style: none;
+    padding: 0;
+    display: flex;
+
+}
+
+
+
+#boton-menu {
+    display: none;
+
+}
+
+
+#logonav h3{
+    font-family: 'Cookie', cursive;
+    font-size: 2rem;
+    font-weight: 400;
+    padding-left: .4rem;
+  margin: 0;
+}
+
+
+#logonav{
+    display: flex;
+    padding-left: .2rem;
+    padding-right:.2rem ;
+    padding-top: .3rem;
+    padding-bottom: .3rem;
+    margin-left: .5rem;
+    align-items: center;
+    align-content: center;
+}
+
+
+#menu-bar label{
+
+    display: none;
+    width: 28px;
+    height: 28px;
+    
+    padding: 10px;
+    font-size: 25px;
+    text-align: center;
+}
+
+
+#menu-bar label:hover{
+    border-radius: 10%;
+    cursor: pointer;
+    background: rgba(158, 157, 158, 0.3);
+}
+
+#menu li a{
+    display: block;
+    text-decoration: none;
+    padding: 14px 7px;
+    margin-right: 10px;
+    color: rgb(51, 50, 50);
+    font-size: 1.1rem;
+
+    background-image: linear-gradient(currentColor, currentColor);
+    background-position: 0% 100%;
+    background-repeat: no-repeat;
+    background-size: 0% 3px;
+    transition: background-size 5s;
+    }
+
+#menu li a:hover{
+    background-size: 100% 2px;
+    background-image: linear-gradient(90deg, #ff67f7 0, #ff62f0 16.67%, #df5ce6 33.33%, #be55d8 50%, #9d4dc9 66.67%, #7f47ba 83.33%, #6340ad 100%);
+    
+}
+
+.fade-enter-from {
+    opacity: 0;
+  }
+
+.fade-enter-active{
+  transition: all 0.3s ease-out;
+}
+
+.fade-leave-to {
+  opacity: 0;
+}
+.fade-leave-active {
+  transition: all 0.3s ease-in;
+}
+
+/* Sección de productos */
+.animate__swing {
+    
+    animation-fill-mode: none;
+}
+
+.enca {
+    height: 33px;
+    background: rgb(174, 201, 198);
+  }
+
+/* Seccion sucursales */
+
+#secSucursales{
+    padding-top: 3rem;
+}
+#secSucur{
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+.sucur{
+    padding-bottom: 2.5rem;
+    border: 1px solid rgb(187, 186, 186);
+    margin: 1.3rem;
+    text-align: center;
+    width: 40%;
+
+}
+.sucur iframe{
+    width: 100%;
+    height: 60%;
+}
+#secSucur h5{
+    padding: .5rem;
+    font-size: 1rem;
+}
+#secSucur p{
+    padding-right: 1rem;
+    padding-left: 1rem;
+    padding-bottom: 0.3rem;
+    text-align: center;
+}
+
+/* Footer */
+
+@media (max-width: 480px ) {
+    html{
+        font-size: 13px;
+    }
+    h1 {
+        font-size: 3.5rem;
+    }
+    #banner h2{
+        width: 60%;
+        font-size: 1.3rem;
+
+        margin-left: 1.5rem;
+    }
+    #banner{
+    height: 100vh;
+    
+    background-image: url("../img/fotochica.svg");
+    
+    }
+
+   
+    #productos a {
+        width: 80%;
+        margin: 1rem;
+    }
+
+    .sucur{
+        width: 80%;
+    }
+ 
+}
+
+
+@media (min-width:481px) {
+        html{
+            font-size: 15px;
+        }
+        #banner{
+            height: 100vh;
+
+            background-image: url("../img/foto2.svg");
+
+        }
+        h1 {
+            font-size: 4.5rem;
+        }
+        #banner h2{
+            width: 60%;
+            font-size: 1.3rem;
+            margin-left: 1.5rem;
+
+        }
+        #productos a {
+            width: 35%;
+            margin: .7rem;
+        }
+
+}
+
+@media (max-width:1024px) {
+
+    #banner nav{
+        display: none;
+    }
+
+    #menu-bar{
+        background: rgb(238, 190, 213);
+        position: -webkit-sticky;
+        position: sticky;
+        top: 0;
+    } 
+
+    #menu-bar label{
+        color: rgb(70, 69, 69);
+        display: block;
+        border-left: 1px dotted rgba(102, 102, 102,0.5);
+        border-radius: 5%;
+
+    }
+    
+    #menu{
+        display: none;
+        position: absolute;
+        right: 0;
+        width: 50%;
+
+            
+        background: rgb(238, 190, 213);
+        
+        font-weight: 500;
+    }   
+
+    #menu ul{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    
+    }
+
+    #menu li a{
+        margin: 0;
+    }
+    
+    nav a{
+
+        border-bottom: 1px solid rgba(158, 158, 158,0.6);
+
+        color: rgb(37, 37, 37);
+    }
+    #menu-bar  a:hover{
+
+        color: white;
+        font-weight: 500;
+    
+    }
+
+    #boton-menu:checked ~ #menu{
+        display: block ;
+        margin-right: 0;
+    
+    }
+
+    #info{
+    
+        border-right:none;
+        border-bottom: 1px solid rgb(201, 200, 200);
+        display: flex;
+        width: 80%;
+        margin-top:0;
+        align-items:flex-start;
+        align-content: flex-start;
+        justify-content: start;
+        text-align: start;
+    
+    }
+
+    .subInfo{
+        width: 20%;
+  
+    }
+
+    .prod img{
+    width: 16rem;
+    } 
+
+}
+
+
+
+@media (min-width:1025px) {
+    html{
+        font-size: 18px;
+    }
+
+    #productos a {
+        width: 24%;
+        margin: 1.5rem;
+    }
+
+
+}
+

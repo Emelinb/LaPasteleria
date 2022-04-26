@@ -1,18 +1,31 @@
 <template>
-  <div class="home">
-    <img alt="Vue logo" src="../assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+<div id="banner" v-cloak>
+  <div id="titulos">
+            <h1> ~ La Pastelería~ </h1>
+            <h2>Endulzando tu vida desde 1970...</h2>
+    </div>
+   <div id="boton">
+    <router-link to="/nosotros">
+          <div id="cupcake">
+              <img src="../assets/img/cupcake.png" alt=".">
+          </div>
+    </router-link>
+    </div>
   </div>
 </template>
 
 <script>
-// @ is an alias to /src
-import HelloWorld from '@/components/HelloWorld.vue'
-
 export default {
   name: 'Home',
-  components: {
-    HelloWorld
+  components: {},
+  methods: {
+    toggleMenu () {
+      this.showMenu = !this.showMenu
+    }
   }
 }
 </script>
+
+<style scoped>
+[v-cloak] { display: none; }
+</style>
